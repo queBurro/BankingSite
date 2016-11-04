@@ -28,7 +28,7 @@ namespace BankingSite.Controllers
                 return View(application);
             }
 
-            _scorer.ScoreApplication(application);
+            _scorer.ScoreApplication(application); //in controller. scorer is in models
 
             _repository.Create(application);
 

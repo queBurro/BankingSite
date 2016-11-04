@@ -9,22 +9,19 @@
             _creditHistoryChecker = creditHistoryChecker;
         }
 
-        public void ScoreApplication(LoanApplication application)
+        public void ScoreApplication(LoanApplication loadApplication)
         {
-            var isBasicCriteriaMet = ValidateBasicCriteria(application);
+            var isBasicCriteriaMet = ValidateBasicCriteria(loadApplication);
 
             if (isBasicCriteriaMet)
             {
-                var isCreditHistoryGood = 
-                    _creditHistoryChecker.CheckCreditHistory(
-                                            application.FirstName,
-                                            application.LastName);
+                var isCreditHistoryGood = _creditHistoryChecker.CheckCreditHistory(loadApplication.FirstName, loadApplication.LastName);
 
-                application.IsAccepted = isCreditHistoryGood;
+                loadApplication.IsAccepted = isCreditHistoryGood;
             }
             else
             {
-                application.IsAccepted = false;
+                loadApplication.IsAccepted = false;
             }
         }
 
