@@ -5,7 +5,7 @@ namespace BankingSite.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index() //Action method. Index is called by convention 
         {
             ViewBag.Message = "Apply today for our award winning personal loans.";
 
@@ -18,7 +18,12 @@ namespace BankingSite.Controllers
                         };
 
             return View(rates);
-        }   
+        } 
+        
+        public string Something()
+        {
+            return "Something says hello";
+        }
 
         public ActionResult Contact()
         {
