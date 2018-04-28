@@ -11,7 +11,7 @@ namespace BankingSite.Controllers
         // GET: Help
         public ActionResult Index()
         {
-            return View();//this returns the Help view
+            return View("Bonus");//this returns the Help view
         }
 
         public string SomethingAgain()

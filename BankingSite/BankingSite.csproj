@@ -189,6 +189,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Help\Bonus.cshtml" />
     <None Include="Views\Help\Index.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -219,6 +220,7 @@
       <LastGenOutput>ApplicationStatus.generated.cs</LastGenOutput>
     </Content>
     <Content Include="Views\LoanApplicationSearch\Index.cshtml" />
+    <Content Include="Views\Help\NextBestThing.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
