@@ -5,11 +5,6 @@ VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSite", "BankingSite\BankingSite.csproj", "{9FDF1EA9-5F3F-4A0F-8AC5-D8BC5E9468DB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5970680F-3A23-429C-8121-10A5B545FDAF}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\packages.config = .nuget\packages.config
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSite.UnitTests", "BankingSite.UnitTests\BankingSite.UnitTests.csproj", "{C67D5D84-C20B-4101-8318-9E3419CAA3CD}"
 EndProject
 Global
